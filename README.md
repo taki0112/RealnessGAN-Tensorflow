@@ -13,7 +13,7 @@ fake_img = generator(noise)
 real_logit = discriminator(real_img)
 fake_logit = discriminator(fake_img)
 
-g_loss = generator_loss(fake_logit)
+g_loss = generator_loss(real_logit, fake_logit)
 d_loss = discriminator_loss(real_logit, fake_logit)
 
 ```
