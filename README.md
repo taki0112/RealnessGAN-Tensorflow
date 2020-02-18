@@ -1,6 +1,10 @@
 ## RealnessGAN &mdash; Simple TensorFlow Implementation [[Paper]](https://openreview.net/pdf?id=B1lPaCNtPB)
 ### : Real or Not Real, that is the Question
 
+<div align="center">
+  <img src="./assets/teaser.png">
+</div>
+
 ## Usage
 ```python
 
